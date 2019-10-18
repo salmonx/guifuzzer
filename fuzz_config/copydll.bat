@@ -1,0 +1,1 @@
+copy /y C:\winafl-master\build32\bin\Release\winafl.dll .
