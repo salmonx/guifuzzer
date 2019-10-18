@@ -1,0 +1,878 @@
+Address	Ordinal	Name	Library
+0040A000		InitCommonControlsEx	COMCTL32
+0040A008		DeleteObject	GDI32
+0040A00C		CreateFontIndirectW	GDI32
+0040A010		GetStockObject	GDI32
+0040A014		GetObjectW	GDI32
+0040A01C		DeactivateActCtx	KERNEL32
+0040A020		LocalFree	KERNEL32
+0040A024		GetCurrentThreadId	KERNEL32
+0040A028		GetLastError	KERNEL32
+0040A02C		IsDebuggerPresent	KERNEL32
+0040A030		UnhandledExceptionFilter	KERNEL32
+0040A034		GetCurrentProcess	KERNEL32
+0040A038		TerminateProcess	KERNEL32
+0040A03C		GetSystemTimeAsFileTime	KERNEL32
+0040A040		GetCurrentProcessId	KERNEL32
+0040A044		SetLastError	KERNEL32
+0040A048		GetTickCount	KERNEL32
+0040A04C		QueryPerformanceCounter	KERNEL32
+0040A050		SetUnhandledExceptionFilter	KERNEL32
+0040A054		DecodePointer	KERNEL32
+0040A058		EncodePointer	KERNEL32
+0040A05C		GetStartupInfoW	KERNEL32
+0040A060		HeapSetInformation	KERNEL32
+0040A064		InterlockedCompareExchange	KERNEL32
+0040A068		Sleep	KERNEL32
+0040A06C		InterlockedExchange	KERNEL32
+0040A070		lstrcpyW	KERNEL32
+0040A074		InterlockedDecrement	KERNEL32
+0040A078		InterlockedIncrement	KERNEL32
+0040A07C		ActivateActCtx	KERNEL32
+0040A080		GetProcAddress	KERNEL32
+0040A084		GetModuleHandleW	KERNEL32
+0040A088		LoadLibraryW	KERNEL32
+0040A090		_except_handler3	MSVCR100
+0040A094		_CxxThrowException	MSVCR100
+0040A098		_crt_debugger_hook	MSVCR100
+0040A09C		type_info::_type_info_dtor_internal_method(void)	MSVCR100
+0040A0A0		_controlfp_s	MSVCR100
+0040A0A4		_invoke_watson	MSVCR100
+0040A0A8		_except_handler4_common	MSVCR100
+0040A0AC		terminate(void)	MSVCR100
+0040A0B0		_onexit	MSVCR100
+0040A0B4		_lock	MSVCR100
+0040A0B8		__dllonexit	MSVCR100
+0040A0BC		_unlock	MSVCR100
+0040A0C0		__set_app_type	MSVCR100
+0040A0C4		_fmode	MSVCR100
+0040A0C8		_commode	MSVCR100
+0040A0CC		__setusermatherr	MSVCR100
+0040A0D0		_configthreadlocale	MSVCR100
+0040A0D4		_initterm_e	MSVCR100
+0040A0D8		_initterm	MSVCR100
+0040A0DC		_wcmdln	MSVCR100
+0040A0E0		exit	MSVCR100
+0040A0E4		_XcptFilter	MSVCR100
+0040A0E8		_exit	MSVCR100
+0040A0EC		_cexit	MSVCR100
+0040A0F0		__wgetmainargs	MSVCR100
+0040A0F4		_amsg_exit	MSVCR100
+0040A0F8		_purecall	MSVCR100
+0040A0FC		__wargv	MSVCR100
+0040A100		__argc	MSVCR100
+0040A104		__CxxFrameHandler3	MSVCR100
+0040A10C	2	SysAllocString(x)	OLEAUT32
+0040A110	9	VariantClear(x)	OLEAUT32
+0040A118		PathFileExistsW	SHLWAPI
+0040A120		MessageBoxW	USER32
+0040A124		RedrawWindow	USER32
+0040A128		GetSystemMetrics	USER32
+0040A12C		LoadImageW	USER32
+0040A130		GetFocus	USER32
+0040A134		IsChild	USER32
+0040A138		EnableWindow	USER32
+0040A13C		LoadBitmapW	USER32
+0040A140		GetSysColor	USER32
+0040A144		InflateRect	USER32
+0040A148		GetWindowRect	USER32
+0040A14C		UpdateWindow	USER32
+0040A150		InvalidateRect	USER32
+0040A154		GetClientRect	USER32
+0040A158		ScreenToClient	USER32
+0040A15C		SendMessageW	USER32
+0040A160		GetSubMenu	USER32
+0040A164		LoadMenuW	USER32
+0040A168		SetRectEmpty	USER32
+0040A16C		GetParent	USER32
+0040A170		ClientToScreen	USER32
+0040A178	8485	CFrameWnd::OnCreateClient(tagCREATESTRUCTW *,CCreateContext *)	mfc100u
+0040A17C	10807	CMDIChildWndEx::OnUpdateFrameTitle(int)	mfc100u
+0040A180	10799	CFrameWnd::OnUpdateFrameMenu(HMENU__ *)	mfc100u
+0040A184	4756	CFrameWnd::GetDefaultAccelerator(void)	mfc100u
+0040A188	3407	CFrameWnd::DelayUpdateFrameMenu(HMENU__ *)	mfc100u
+0040A18C	4084	CFrameWnd::ExitHelpMode(void)	mfc100u
+0040A190	10511	CFrameWnd::OnShowMenuBar(void)	mfc100u
+0040A194	9470	CFrameWnd::OnHideMenuBar(void)	mfc100u
+0040A198	2782	CMDIChildWnd::Create(wchar_t const *,wchar_t const *,ulong,tagRECT const &,CMDIFrameWnd *,CCreateContext *)	mfc100u
+0040A19C	10801	CMDIChildWnd::OnUpdateFrameMenu(int,CWnd *,HMENU__ *)	mfc100u
+0040A1A0	1763	CMDIChildWndEx::AdjustDockingLayout(void *)	mfc100u
+0040A1A4	9888	CMDIChildWndEx::OnMoveMiniFrame(CWnd *)	mfc100u
+0040A1A8	13943	CMDIChildWndEx::RegisterTaskbarTab(CMDIChildWndEx *)	mfc100u
+0040A1AC	5006	CMDIChildWndEx::GetFrameText(void)	mfc100u
+0040A1B0	5005	CMDIChildWndEx::GetFrameIcon(void)	mfc100u
+0040A1B4	6243	CWnd::GetStyle(void)	mfc100u
+0040A1B8	14014	CMDIChildWndEx::UpdateTaskbarTabIcon(HICON__ *)	mfc100u
+0040A1BC	14070	CMDIChildWndEx::OnTaskbarTabThumbnailStretch(HBITMAP__ *,CRect const &,HBITMAP__ *,CRect const &)	mfc100u
+0040A1C0	14065	CMDIChildWndEx::GetTaskbarPreviewWnd(void)	mfc100u
+0040A1C4	14155	CMDIChildWndEx::OnPressTaskbarThmbnailCloseButton(void)	mfc100u
+0040A1C8	14156	CMDIChildWndEx::OnTaskbarTabThumbnailActivate(uint,CWnd *,int)	mfc100u
+0040A1CC	14157	CMDIChildWndEx::OnTaskbarTabThumbnailMouseActivate(CWnd *,uint,uint)	mfc100u
+0040A1D0	14154	CMDIChildWndEx::GetTaskbarThumbnailClipRect(void)	mfc100u
+0040A1D4	4833	CMDIChildWndEx::GetDocumentName(CObject * *)	mfc100u
+0040A1D8	14158	CMDIChildWndEx::SetTaskbarThumbnailClipRect(CRect)	mfc100u
+0040A1DC	14151	CMDIChildWndEx::ActivateTopLevelFrame(void)	mfc100u
+0040A1E0	14215	CMDIChildWndEx::SetTaskbarTabText(wchar_t const *)	mfc100u
+0040A1E4	10775	CMFCToolBar::OnUpdateCmdUI(CFrameWnd *,int)	mfc100u
+0040A1E8	4360	CWnd::FromHandle(HWND__ *)	mfc100u
+0040A1EC	684	CMFCToolBarMenuButton::CMFCToolBarMenuButton(uint,HMENU__ *,int,wchar_t const *,int)	mfc100u
+0040A1F0	1144	CMFCToolBarMenuButton::~CMFCToolBarMenuButton(void)	mfc100u
+0040A1F4	7767	CMFCToolBarImages CMFCToolBar::m_Images	mfc100u
+0040A1F8	11134	CMFCToolBarImages::PrepareDrawImage(tagAFXDrawState &,CSize,int)	mfc100u
+0040A1FC	8703	CMFCToolBarMenuButton::OnDraw(CDC *,CRect const &,CMFCToolBarImages *,int,int,int,int,int)	mfc100u
+0040A200	3990	CMFCToolBarImages::EndDrawImage(tagAFXDrawState &)	mfc100u
+0040A204	6523	CMFCToolBarMenuButton::GetThisClass(void)	mfc100u
+0040A208	1867	AfxClassInit(CRuntimeClass *)	mfc100u
+0040A20C	392	CDockablePane::CDockablePane(void)	mfc100u
+0040A210	953	CDockablePane::~CDockablePane(void)	mfc100u
+0040A214	457	CImageList::CImageList(void)	mfc100u
+0040A218	1006	CImageList::~CImageList(void)	mfc100u
+0040A21C	661	CMFCToolBar::CMFCToolBar(void)	mfc100u
+0040A220	1130	CMFCToolBar::~CMFCToolBar(void)	mfc100u
+0040A224	6714	CDockablePane::GetThisMessageMap(void)	mfc100u
+0040A228	8432	CDockablePane::OnCreate(tagCREATESTRUCTW *)	mfc100u
+0040A22C	2851	CTreeCtrl::Create(ulong,tagRECT const &,CWnd *,uint)	mfc100u
+0040A230	2806	CMFCToolBar::Create(CWnd *,ulong,uint)	mfc100u
+0040A234	7629	CMFCToolBar::LoadToolBar(uint,uint,uint,int,uint,uint,uint)	mfc100u
+0040A238	7903	CMenu::MeasureItem(tagMEASUREITEMSTRUCT *)	mfc100u
+0040A23C	3754	CMenu::DrawItem(tagDRAWITEMSTRUCT *)	mfc100u
+0040A240	5900	CMenu::GetRuntimeClass(void)	mfc100u
+0040A244	3482	CMenu::DestroyMenu(void)	mfc100u
+0040A248	1905	AfxFindResourceHandle(wchar_t const *,wchar_t const *)	mfc100u
+0040A24C	2188	CMenu::Attach(HMENU__ *)	mfc100u
+0040A250	11688	CMFCToolBar::ReplaceButton(uint,CMFCToolBarButton const &,int)	mfc100u
+0040A254	4359	CMenu::FromHandle(HMENU__ *)	mfc100u
+0040A258	1893	AfxDynamicDownCast(CRuntimeClass *,CObject *)	mfc100u
+0040A25C	4522	CMFCToolBar::GetButton(int)	mfc100u
+0040A260	12473	CMFCToolBarButton::SetImage(int)	mfc100u
+0040A264	4608	CCommandManager::GetCmdImage(uint,int)	mfc100u
+0040A268	4609	GetCmdMgr(void)	mfc100u
+0040A26C	10552	CBasePane::OnSize(uint,int,int)	mfc100u
+0040A270	7251	CTreeCtrl::InsertItem(uint,wchar_t const *,int,int,uint,uint,long,_TREEITEM *,_TREEITEM *)	mfc100u
+0040A274	12504	CTreeCtrl::SetItem(_TREEITEM *,uint,wchar_t const *,int,int,uint,uint,long)	mfc100u
+0040A278	8412	CDockablePane::OnContextMenu(CWnd *,CPoint)	mfc100u
+0040A27C	7095	CTreeCtrl::HitTest(CPoint,uint *)	mfc100u
+0040A280	12413	CWnd::SetFocus(void)	mfc100u
+0040A284	7399	CObject::IsKindOf(CRuntimeClass const *)	mfc100u
+0040A288	1944	AfxGetThread(void)	mfc100u
+0040A28C	6413	CMDIFrameWndEx::GetThisClass(void)	mfc100u
+0040A290	554	CMFCPopupMenu::CMFCPopupMenu(void)	mfc100u
+0040A294	13306	CWnd::UpdateDialogControls(CCmdTarget *,int)	mfc100u
+0040A298	2303	CMFCToolBar::CalcFixedLayout(int,int)	mfc100u
+0040A29C	12946	CBasePane::SetWindowPos(CWnd const *,int,int,int,int,uint,void *)	mfc100u
+0040A2A0	12948	CWnd::SetWindowPos(CWnd const *,int,int,int,int,uint)	mfc100u
+0040A2A4	11166	CDockablePane::PreTranslateMessage(tagMSG *)	mfc100u
+0040A2A8	1987	AfxMessageBox(wchar_t const *,uint,uint)	mfc100u
+0040A2AC	788	CPaintDC::CPaintDC(CWnd *)	mfc100u
+0040A2B0	1212	CPaintDC::~CPaintDC(void)	mfc100u
+0040A2B4	11940	CWnd::ScreenToClient(tagRECT *)	mfc100u
+0040A2B8	3703	CDC::Draw3dRect(tagRECT const *,ulong,ulong)	mfc100u
+0040A2BC	10391	CDockablePane::OnSetFocus(CWnd *)	mfc100u
+0040A2C0	3433	CImageList::DeleteImageList(void)	mfc100u
+0040A2C4	5799	CBitmap::GetRuntimeClass(void)	mfc100u
+0040A2C8	4290	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(wchar_t const *,...)	mfc100u
+0040A2CC	902	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::~CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>(void)	mfc100u
+0040A2D0	296	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>(void)	mfc100u
+0040A2D4	3446	CGdiObject::DeleteObject(void)	mfc100u
+0040A2D8	5862	CGdiObject::GetRuntimeClass(void)	mfc100u
+0040A2DC	2185	CGdiObject::Attach(void *)	mfc100u
+0040A2E0	2773	CImageList::Create(int,int,uint,int,int)	mfc100u
+0040A2E4	1934	AfxGetModuleState(void)	mfc100u
+0040A2E8	2062	AfxThrowInvalidArgException(void)	mfc100u
+0040A2EC	4358	CImageList::FromHandle(_IMAGELIST *)	mfc100u
+0040A2F0	2477	CMFCToolBar::CleanUpLockedImages(void)	mfc100u
+0040A2F4	7552	CMFCToolBar::LoadBitmapW(uint,uint,uint,int,uint,uint)	mfc100u
+0040A2F8	5999	CMFCToolBar::GetRuntimeClass(void)	mfc100u
+0040A2FC	12050	CMFCToolBar::Serialize(CArchive &)	mfc100u
+0040A300	8346	CCmdTarget::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040A304	5397	CMFCToolBar::GetMessageMap(void)	mfc100u
+0040A308	3491	CWnd::DestroyWindow(void)	mfc100u
+0040A30C	11116	CWnd::PreCreateWindow(tagCREATESTRUCTW &)	mfc100u
+0040A310	5276	CWnd::GetMenu(void)	mfc100u
+0040A314	12557	CWnd::SetMenu(CMenu *)	mfc100u
+0040A318	10721	CMFCToolBar::OnToolHitTest(CPoint,tagTOOLINFOW *)	mfc100u
+0040A31C	4415	CBasePane::get_accParent(IDispatch * *)	mfc100u
+0040A320	4381	CBasePane::get_accChildCount(long *)	mfc100u
+0040A324	4377	CBasePane::get_accChild(tagVARIANT,IDispatch * *)	mfc100u
+0040A328	4410	CBasePane::get_accName(tagVARIANT,wchar_t * *)	mfc100u
+0040A32C	4432	CBasePane::get_accValue(tagVARIANT,wchar_t * *)	mfc100u
+0040A330	4390	CBasePane::get_accDescription(tagVARIANT,wchar_t * *)	mfc100u
+0040A334	4418	CBasePane::get_accRole(tagVARIANT,tagVARIANT *)	mfc100u
+0040A338	4427	CBasePane::get_accState(tagVARIANT,tagVARIANT *)	mfc100u
+0040A33C	4398	CBasePane::get_accHelp(tagVARIANT,wchar_t * *)	mfc100u
+0040A340	4402	CBasePane::get_accHelpTopic(wchar_t * *,tagVARIANT,long *)	mfc100u
+0040A344	4406	CBasePane::get_accKeyboardShortcut(tagVARIANT,wchar_t * *)	mfc100u
+0040A348	4394	CBasePane::get_accFocus(tagVARIANT *)	mfc100u
+0040A34C	4423	CBasePane::get_accSelection(tagVARIANT *)	mfc100u
+0040A350	4385	CBasePane::get_accDefaultAction(tagVARIANT,wchar_t * *)	mfc100u
+0040A354	1517	CBasePane::accSelect(long,tagVARIANT)	mfc100u
+0040A358	1510	CBasePane::accLocation(long *,long *,long *,long *,tagVARIANT)	mfc100u
+0040A35C	1506	CBasePane::accHitTest(long,long,tagVARIANT *)	mfc100u
+0040A360	8384	CMFCToolBar::OnCommand(uint,long)	mfc100u
+0040A364	11198	CMFCToolBar::PreTranslateMessage(tagMSG *)	mfc100u
+0040A368	13369	CBasePane::WindowProc(uint,uint,long)	mfc100u
+0040A36C	3402	CWnd::DefWindowProcW(uint,uint,long)	mfc100u
+0040A370	11081	CWnd::PostNcDestroy(void)	mfc100u
+0040A374	7385	CWnd::IsFrameWnd(void)	mfc100u
+0040A378	4699	CBasePane::GetCurrentAlignment(void)	mfc100u
+0040A37C	7350	CBasePane::IsDocked(void)	mfc100u
+0040A380	7485	CPane::IsTabbed(void)	mfc100u
+0040A384	7418	CBasePane::IsMDITabbed(void)	mfc100u
+0040A388	7506	CBasePane::IsVisible(void)	mfc100u
+0040A38C	2382	CBasePane::CanFloat(void)	mfc100u
+0040A390	2360	CPane::CanBeTabbedDocument(void)	mfc100u
+0040A394	4824	CBasePane::GetDockSiteFrameWnd(void)	mfc100u
+0040A398	3904	CMFCToolBar::EnableDocking(ulong)	mfc100u
+0040A39C	3568	CPane::DockPane(CBasePane *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A3A0	4269	CPane::FloatPane(CRect,AFX_DOCK_METHOD,bool)	mfc100u
+0040A3A4	13120	CMFCToolBar::StretchPane(int,int)	mfc100u
+0040A3A8	1776	CMFCToolBar::AdjustLayout(void)	mfc100u
+0040A3AC	11425	CPane::RecalcLayout(void)	mfc100u
+0040A3B0	2893	CPane::CreateDefaultMiniframe(CRect)	mfc100u
+0040A3B4	8135	CMFCToolBar::OnBeforeChangeParent(CWnd *,int)	mfc100u
+0040A3B8	8089	CMFCBaseToolBar::OnAfterChangeParent(CWnd *)	mfc100u
+0040A3BC	13010	CBasePane::ShowPane(int,int,int)	mfc100u
+0040A3C0	5640	CBasePane::GetParentMiniFrame(int)	mfc100u
+0040A3C4	7605	CMFCToolBar::LoadState(wchar_t const *,int,uint)	mfc100u
+0040A3C8	11912	CMFCToolBar::SaveState(wchar_t const *,int,uint)	mfc100u
+0040A3CC	7971	CBasePane::MoveWindow(CRect &,int,void *)	mfc100u
+0040A3D0	2734	CBasePane::CopyState(CBasePane *)	mfc100u
+0040A3D4	13244	CPane::UndockPane(int)	mfc100u
+0040A3D8	10131	CBasePane::OnPaneContextMenu(CWnd *,CPoint)	mfc100u
+0040A3DC	2918	CBasePane::CreateEx(ulong,wchar_t const *,wchar_t const *,ulong,tagRECT const &,CWnd *,uint,ulong,CCreateContext *)	mfc100u
+0040A3E0	10350	CMFCToolBar::OnSetAccData(long)	mfc100u
+0040A3E4	1516	CMFCToolBar::AccNotifyObjectFocusEvent(int)	mfc100u
+0040A3E8	3659	CMFCToolBar::DoPaint(CDC *)	mfc100u
+0040A3EC	1759	CBasePane::AdjustDockingLayout(void *)	mfc100u
+0040A3F0	4484	CPane::GetAvailableExpandSize(void)	mfc100u
+0040A3F4	4489	CPane::GetAvailableStretchSize(void)	mfc100u
+0040A3F8	2736	CPane::CopyState(CPane *)	mfc100u
+0040A3FC	5613	CPane::GetPaneName(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)	mfc100u
+0040A400	12117	CPane::SetActiveInGroup(int)	mfc100u
+0040A404	11139	CPane::PrepareToDock(CDockSite *,AFX_DOCK_METHOD)	mfc100u
+0040A408	3553	CPane::DockByMouse(CBasePane *)	mfc100u
+0040A40C	2329	CMFCToolBar::CalcSize(int)	mfc100u
+0040A410	7962	CPane::MovePane(CRect,int,void * &)	mfc100u
+0040A414	13122	CPane::StretchPaneDeferWndPos(int,void * &)	mfc100u
+0040A418	7322	CPane::IsChangeState(int,CBasePane * *)	mfc100u
+0040A41C	12358	CPane::SetDockState(CDockingManager *)	mfc100u
+0040A420	10192	CPane::OnProcessDblClk(void)	mfc100u
+0040A424	8142	CPane::OnBeforeFloat(CRect &,AFX_DOCK_METHOD)	mfc100u
+0040A428	8105	CMFCToolBar::OnAfterFloat(void)	mfc100u
+0040A42C	2817	CPane::Create(wchar_t const *,ulong,tagRECT const &,CWnd *,uint,ulong,CCreateContext *)	mfc100u
+0040A430	2936	CPane::CreateEx(ulong,wchar_t const *,ulong,tagRECT const &,CWnd *,uint,ulong,CCreateContext *)	mfc100u
+0040A434	2275	CPane::CalcAvailableSize(CRect)	mfc100u
+0040A438	1805	CPane::AdjustSizeImmediate(int)	mfc100u
+0040A43C	10172	CPane::OnPressCloseButton(void)	mfc100u
+0040A440	2675	CPane::ConvertToTabbedDocument(int)	mfc100u
+0040A444	8425	CPane::OnContinueMoving(void)	mfc100u
+0040A448	8137	CPane::OnBeforeDock(CBasePane * *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A44C	8104	CMFCToolBar::OnAfterDock(CBasePane *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A450	8110	CMFCBaseToolBar::OnAfterStretch(int)	mfc100u
+0040A454	11600	CPane::RemoveFromMiniframe(CWnd *,AFX_DOCK_METHOD)	mfc100u
+0040A458	12364	CPane::SetDragMode(int)	mfc100u
+0040A45C	3552	CPane::Dock(CBasePane *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A460	4006	CPane::EnterDragMode(int)	mfc100u
+0040A464	10293	CPane::OnRTLChanged(int)	mfc100u
+0040A468	13106	CPane::StoreRecentDockSiteInfo(void)	mfc100u
+0040A46C	2932	CMFCToolBar::CreateEx(CWnd *,ulong,ulong,CRect,uint)	mfc100u
+0040A470	11747	CMFCToolBar::ResetImages(void)	mfc100u
+0040A474	7550	CMFCToolBar::LoadBitmapEx(CMFCToolBarInfo &,int)	mfc100u
+0040A478	7631	CMFCToolBar::LoadToolBarEx(uint,CMFCToolBarInfo &,int)	mfc100u
+0040A47C	12205	CMFCToolBar::SetButtons(uint const *,int,int)	mfc100u
+0040A480	7239	CMFCToolBar::InsertButton(CMFCToolBarButton *,int)	mfc100u
+0040A484	7240	CMFCToolBar::InsertButton(CMFCToolBarButton const &,int)	mfc100u
+0040A488	7268	CMFCToolBar::InsertSeparator(int)	mfc100u
+0040A48C	11579	CMFCToolBar::RemoveButton(int)	mfc100u
+0040A490	11547	CMFCToolBar::RemoveAllButtons(void)	mfc100u
+0040A494	7842	CMFCVisualManager * CMFCVisualManager::m_pVisManager	mfc100u
+0040A498	7835	CRuntimeClass * CMFCVisualManager::m_pRTIDefault	mfc100u
+0040A49C	3150	CRuntimeClass::CreateObject(void)	mfc100u
+0040A4A0	703	CMFCVisualManager::CMFCVisualManager(int)	mfc100u
+0040A4A4	7845	CSize CMFCToolBar::m_sizeButton	mfc100u
+0040A4A8	7846	CSize CMFCToolBar::m_sizeCurButton	mfc100u
+0040A4AC	7850	CSize CMFCToolBar::m_sizeMenuButton	mfc100u
+0040A4B0	1947	AFX_GLOBAL_DATA afxGlobalData	mfc100u
+0040A4B4	3385	CMFCToolBar::Deactivate(void)	mfc100u
+0040A4B8	11790	CMFCToolBar::RestoreFocus(void)	mfc100u
+0040A4BC	5187	CMFCToolBar::GetItemRect(int,tagRECT *)	mfc100u
+0040A4C0	5150	CMFCToolBar::GetInvalidateItemRect(int,tagRECT *)	mfc100u
+0040A4C4	12209	CMFCToolBar::SetButtonStyle(int,uint)	mfc100u
+0040A4C8	11659	CMFCToolBar::RemoveStateFromRegistry(wchar_t const *,int,uint)	mfc100u
+0040A4CC	2358	CMFCToolBar::CanBeRestored(void)	mfc100u
+0040A4D0	11794	CMFCToolBar::RestoreOriginalstate(void)	mfc100u
+0040A4D4	7089	CMFCToolBar::HitTest(CPoint)	mfc100u
+0040A4D8	13198	CMFCToolBar::TranslateChar(uint)	mfc100u
+0040A4DC	11211	CMFCToolBar::PrevMenu(void)	mfc100u
+0040A4E0	8000	CMFCToolBar::NextMenu(void)	mfc100u
+0040A4E4	10386	CMFCToolBar::OnSetDefaultButtonText(CMFCToolBarButton *)	mfc100u
+0040A4E8	9434	CMFCToolBar::OnGlobalFontsChanged(void)	mfc100u
+0040A4EC	10891	CMFCToolBar::OnUserToolTip(CMFCToolBarButton *,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)	mfc100u
+0040A4F0	8226	CMFCToolBar::OnChangeHot(int)	mfc100u
+0040A4F4	8245	CMFCToolBar::OnChangeVisualManager(void)	mfc100u
+0040A4F8	2313	CMFCToolBar::CalcLayout(ulong,int)	mfc100u
+0040A4FC	3712	CMFCToolBar::DrawButton(CDC *,CMFCToolBarButton *,CMFCToolBarImages *,int,int)	mfc100u
+0040A500	3725	CMFCToolBar::DrawDragCursor(CDC *)	mfc100u
+0040A504	1937	AFXGetParentFrame(CWnd const *)	mfc100u
+0040A508	9073	CMFCToolBar::OnDrop(COleDataObject *,ulong,CPoint)	mfc100u
+0040A50C	8637	CMFCToolBar::OnDragEnter(COleDataObject *,ulong,CPoint)	mfc100u
+0040A510	8642	CMFCToolBar::OnDragLeave(void)	mfc100u
+0040A514	8652	CMFCToolBar::OnDragOver(COleDataObject *,ulong,CPoint)	mfc100u
+0040A518	8019	CMFCToolBar::NotifyControlCommand(CMFCToolBarButton *,int,int,uint,long)	mfc100u
+0040A51C	4195	CMFCToolBar::FindDropIndex(CPoint,CRect &)	mfc100u
+0040A520	1786	CMFCToolBar::AdjustLocations(void)	mfc100u
+0040A524	3790	CMFCToolBar::DrawSeparator(CDC *,CRect const &,int)	mfc100u
+0040A528	2911	CMFCToolBar::CreateDroppedButton(COleDataObject *)	mfc100u
+0040A52C	8514	CMFCToolBar::OnCustomizeMode(int)	mfc100u
+0040A530	3890	CMFCToolBar::EnableContextMenuItems(CMFCToolBarButton *,CMenu *)	mfc100u
+0040A534	8162	CMFCToolBar::OnCalcSeparatorRect(CMFCToolBarButton *,CRect &,int)	mfc100u
+0040A538	1695	CMFCToolBar::AddRemoveSeparator(CMFCToolBarButton const *,CPoint const &,CPoint const &)	mfc100u
+0040A53C	12986	CMFCToolBar::ShowCommandMessageString(uint)	mfc100u
+0040A540	2316	CMFCToolBar::CalcMaxButtonHeight(void)	mfc100u
+0040A544	8087	CMFCToolBar::OnAfterButtonDelete(void)	mfc100u
+0040A548	11887	CMFCToolBar::SaveOriginalState(CSettingsStore &)	mfc100u
+0040A54C	7580	CMFCToolBar::LoadLastOriginalState(CSettingsStore &)	mfc100u
+0040A550	13065	CMFCToolBar::SmartUpdate(CObList const &)	mfc100u
+0040A554	5832	CDockablePane::GetRuntimeClass(void)	mfc100u
+0040A558	12034	CDockablePane::Serialize(CArchive &)	mfc100u
+0040A55C	8393	CWnd::OnCommand(uint,long)	mfc100u
+0040A560	7351	CDockablePane::IsDocked(void)	mfc100u
+0040A564	7508	CDockablePane::IsVisible(void)	mfc100u
+0040A568	7392	CDockablePane::IsInFloatingMultiPaneFrameWnd(void)	mfc100u
+0040A56C	6348	CDockablePane::GetThisClass(void)	mfc100u
+0040A570	4555	CDockablePane::GetCaptionHeight(void)	mfc100u
+0040A574	4819	CBasePane::GetDockingMode(void)	mfc100u
+0040A578	2351	CDockablePane::CanAutoHide(void)	mfc100u
+0040A57C	3913	CDockablePane::EnableGripper(int)	mfc100u
+0040A580	3584	CDockablePane::DockToFrameWindow(ulong,tagRECT const *,ulong,CBasePane *,int,int)	mfc100u
+0040A584	8134	CDockablePane::OnBeforeChangeParent(CWnd *,int)	mfc100u
+0040A588	8088	CDockablePane::OnAfterChangeParent(CWnd *)	mfc100u
+0040A58C	13011	CDockablePane::ShowPane(int,int,int)	mfc100u
+0040A590	7593	CDockablePane::LoadState(wchar_t const *,int,uint)	mfc100u
+0040A594	11899	CDockablePane::SaveState(wchar_t const *,int,uint)	mfc100u
+0040A598	13243	CDockablePane::UndockPane(int)	mfc100u
+0040A59C	10759	CDockablePane::OnUpdateCmdUI(CFrameWnd *,int)	mfc100u
+0040A5A0	10346	CBasePane::OnSetAccData(long)	mfc100u
+0040A5A4	2291	CDockablePane::CalcFixedLayout(int,int)	mfc100u
+0040A5A8	3647	CBasePane::DoPaint(CDC *)	mfc100u
+0040A5AC	3579	CDockablePane::DockPaneStandard(int &)	mfc100u
+0040A5B0	7320	CDockablePane::IsChangeState(int,CBasePane * *)	mfc100u
+0040A5B4	8140	CDockablePane::OnBeforeFloat(CRect &,AFX_DOCK_METHOD)	mfc100u
+0040A5B8	8106	CPane::OnAfterFloat(void)	mfc100u
+0040A5BC	13165	CDockablePane::ToggleAutoHide(void)	mfc100u
+0040A5C0	10171	CDockablePane::OnPressCloseButton(void)	mfc100u
+0040A5C4	2673	CDockablePane::ConvertToTabbedDocument(int)	mfc100u
+0040A5C8	10501	CPane::OnShowControlBarMenu(CPoint)	mfc100u
+0040A5CC	8788	CDockablePane::OnDrawDragRect(tagRECT const *,tagRECT const *)	mfc100u
+0040A5D0	8103	CDockablePane::OnAfterDock(CBasePane *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A5D4	3550	CDockablePane::Dock(CBasePane *,tagRECT const *,AFX_DOCK_METHOD)	mfc100u
+0040A5D8	4004	CDockablePane::EnterDragMode(int)	mfc100u
+0040A5DC	13104	CDockablePane::StoreRecentDockSiteInfo(void)	mfc100u
+0040A5E0	2759	CDockablePane::Create(wchar_t const *,CWnd *,CSize,int,uint,ulong,ulong,ulong)	mfc100u
+0040A5E4	2758	CDockablePane::Create(wchar_t const *,CWnd *,tagRECT const &,int,uint,ulong,ulong,ulong,CCreateContext *)	mfc100u
+0040A5E8	2920	CDockablePane::CreateEx(ulong,wchar_t const *,CWnd *,tagRECT const &,int,uint,ulong,ulong,ulong,CCreateContext *)	mfc100u
+0040A5EC	7076	CDockablePane::HitTest(CPoint,int)	mfc100u
+0040A5F0	2342	CDockablePane::CanAcceptMiniFrame(CPaneFrameWnd *)	mfc100u
+0040A5F4	13062	CDockablePane::Slide(int,int)	mfc100u
+0040A5F8	4821	CDockablePane::GetDockingStatus(CPoint,int)	mfc100u
+0040A5FC	2204	CDockablePane::AttachToTabWnd(CDockablePane *,AFX_DOCK_METHOD,int,CDockablePane * *)	mfc100u
+0040A600	3198	CDockablePane::CreateTabbedPane(void)	mfc100u
+0040A604	3585	CDockablePane::DockToWindow(CDockablePane *,ulong,tagRECT const *)	mfc100u
+0040A608	3570	CDockablePane::DockPaneContainer(CPaneContainerManager &,ulong,AFX_DOCK_METHOD)	mfc100u
+0040A60C	13273	CDockablePane::UnSetAutoHideMode(CDockablePane *)	mfc100u
+0040A610	12163	CDockablePane::SetAutoHideMode(int,ulong,CMFCAutoHideBar *,int)	mfc100u
+0040A614	7712	int CDockablePane::m_bHideInAutoHideMode	mfc100u
+0040A618	2735	CDockablePane::CopyState(CDockablePane *)	mfc100u
+0040A61C	13111	CDockablePane::StoreRecentTabRelatedInfo(void)	mfc100u
+0040A620	3713	CDockablePane::DrawCaption(CDC *,CRect)	mfc100u
+0040A624	1790	CDockablePane::AdjustPaneToPaneContainer(CPaneDivider *)	mfc100u
+0040A628	10733	CDockablePane::OnTrackCaptionButtons(CPoint)	mfc100u
+0040A62C	13090	CDockablePane::StopCaptionButtonsTracking(void)	mfc100u
+0040A630	12217	CDockablePane::SetCaptionButtons(void)	mfc100u
+0040A634	2419	CDockablePane::CheckAutoHideCondition(void)	mfc100u
+0040A638	2440	CDockablePane::CheckStopSlideCondition(int)	mfc100u
+0040A63C	10613	CDockablePane::OnSlide(int)	mfc100u
+0040A640	12056	CMFCToolBarMenuButton::Serialize(CArchive &)	mfc100u
+0040A644	11133	CMFCToolBarButton::PrepareDrag(COleDataSource &)	mfc100u
+0040A648	2723	CMFCToolBarMenuButton::CopyFrom(CMFCToolBarButton const &)	mfc100u
+0040A64C	8175	CMFCToolBarMenuButton::OnCalculateSize(CDC *,CSize const &,int)	mfc100u
+0040A650	8289	CMFCToolBarMenuButton::OnClick(CWnd *,int)	mfc100u
+0040A654	8238	CMFCToolBarMenuButton::OnChangeParentWnd(CWnd *)	mfc100u
+0040A658	4096	CMFCToolBarButton::ExportToMenuButton(CMFCToolBarMenuButton &)	mfc100u
+0040A65C	8201	CMFCToolBarMenuButton::OnCancelMode(void)	mfc100u
+0040A660	7782	CList<uint,uint> CMFCToolBarButton::m_lstProtectedCommands	mfc100u
+0040A664	2084	CUserToolsManager * afxUserToolsManager	mfc100u
+0040A668	8868	CMFCToolBarMenuButton::OnDrawOnCustomizeList(CDC *,CRect const &,int)	mfc100u
+0040A66C	8139	CMFCToolBarMenuButton::OnBeforeDrag(void)	mfc100u
+0040A670	10722	CMFCToolBarButton::OnToolHitTest(CWnd const *,tagTOOLINFOW *)	mfc100u
+0040A674	11866	CMFCToolBarMenuButton::SaveBarState(void)	mfc100u
+0040A678	11749	CMFCToolBarMenuButton::ResetImageToDefault(void)	mfc100u
+0040A67C	2627	CMFCToolBarMenuButton::CompareWith(CMFCToolBarButton const &)	mfc100u
+0040A680	7382	CMFCToolBarButton::IsFirstInGroup(void)	mfc100u
+0040A684	7404	CMFCToolBarButton::IsLastInGroup(void)	mfc100u
+0040A688	12109	CMFCToolBarMenuButton::SetACCData(CWnd *,CAccessibilityData &)	mfc100u
+0040A68C	12734	CMFCToolBarMenuButton::SetRadio(void)	mfc100u
+0040A690	10983	CMFCToolBarMenuButton::OpenPopupMenu(CWnd *)	mfc100u
+0040A694	2968	CMFCToolBarMenuButton::CreateFromMenu(HMENU__ *)	mfc100u
+0040A698	3000	CMFCToolBarMenuButton::CreateMenu(void)	mfc100u
+0040A69C	12850	CMFCToolBarMenuButton::SetTearOff(uint)	mfc100u
+0040A6A0	2774	CImageList::Create(uint,int,int,ulong)	mfc100u
+0040A6A4	4661	CWinAppEx::GetContextMenuManager(void)	mfc100u
+0040A6A8	1821	uint AFX_WM_CREATETOOLBAR	mfc100u
+0040A6AC	6733	CMDIFrameWndEx::GetThisMessageMap(void)	mfc100u
+0040A6B0	476	CMDIFrameWndEx::CMDIFrameWndEx(void)	mfc100u
+0040A6B4	1025	CMDIFrameWndEx::~CMDIFrameWndEx(void)	mfc100u
+0040A6B8	544	CMFCMenuBar::CMFCMenuBar(void)	mfc100u
+0040A6BC	1070	CMFCMenuBar::~CMFCMenuBar(void)	mfc100u
+0040A6C0	657	CMFCStatusBar::CMFCStatusBar(void)	mfc100u
+0040A6C4	1126	CMFCStatusBar::~CMFCStatusBar(void)	mfc100u
+0040A6C8	681	CMFCToolBarImages::CMFCToolBarImages(void)	mfc100u
+0040A6CC	1143	CMFCToolBarImages::~CMFCToolBarImages(void)	mfc100u
+0040A6D0	5112	CWinAppEx::GetInt(wchar_t const *,int)	mfc100u
+0040A6D4	8439	CMDIFrameWndEx::OnCreate(tagCREATESTRUCTW *)	mfc100u
+0040A6D8	477	CMDITabInfo::CMDITabInfo(void)	mfc100u
+0040A6DC	3925	CMDIFrameWndEx::EnableMDITabbedGroups(int,CMDITabInfo const &)	mfc100u
+0040A6E0	8112	CWnd::OnAmbientProperty(COleControlSite *,long,tagVARIANT *)	mfc100u
+0040A6E4	7618	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::LoadStringW(uint)	mfc100u
+0040A6E8	12951	CWnd::SetWindowTextW(wchar_t const *)	mfc100u
+0040A6EC	3893	CMFCToolBar::EnableCustomizeButton(int,int,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,int)	mfc100u
+0040A6F0	7205	CFrameImpl::InitUserToolbars(wchar_t const *,uint,uint)	mfc100u
+0040A6F4	2804	CMFCStatusBar::Create(CWnd *,ulong,uint)	mfc100u
+0040A6F8	12486	CMFCStatusBar::SetIndicators(uint const *,int)	mfc100u
+0040A6FC	3903	CMDIFrameWndEx::EnableDocking(ulong)	mfc100u
+0040A700	3563	CMDIFrameWndEx::DockPane(CBasePane *,uint,tagRECT const *)	mfc100u
+0040A704	13601	CDockingManager::SetDockingMode(AFX_DOCK_TYPE,AFX_SMARTDOCK_THEME)	mfc100u
+0040A708	3870	CMDIFrameWndEx::EnableAutoHidePanes(ulong)	mfc100u
+0040A70C	1738	CMFCToolBar::AddToolBarForImageCollection(uint,uint,uint,uint,uint,uint)	mfc100u
+0040A710	3979	CMDIFrameWndEx::EnableWindowsDialog(uint,uint,int,int)	mfc100u
+0040A714	3948	CDockingManager::EnablePaneContextMenu(int,uint,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,int)	mfc100u
+0040A718	7682	int CMFCToolBar::m_bAltCustomization	mfc100u
+0040A71C	7841	CMFCToolBarImages * CMFCToolBar::m_pUserImages	mfc100u
+0040A720	7534	CMFCToolBarImages::Load(wchar_t const *,ulong)	mfc100u
+0040A724	12919	CMFCToolBar::SetUserImages(CMFCToolBarImages *)	mfc100u
+0040A728	4331	CPlex::FreeDataChain(void)	mfc100u
+0040A72C	2823	CPlex::Create(CPlex * &,uint,uint)	mfc100u
+0040A730	2057	AfxThrowArchiveException(int,wchar_t const *)	mfc100u
+0040A734	11330	CArchive::Read(void *,uint)	mfc100u
+0040A738	13396	CArchive::Write(void const *,uint)	mfc100u
+0040A73C	11353	CArchive::ReadCount(void)	mfc100u
+0040A740	13415	CArchive::WriteCount(ulong)	mfc100u
+0040A744	6036	CObject::GetRuntimeClass(void)	mfc100u
+0040A748	12177	CMFCToolBar::SetBasicCommands(CList<uint,uint> &)	mfc100u
+0040A74C	7986	CFrameWnd::NegotiateBorderSpace(uint,tagRECT *)	mfc100u
+0040A750	11101	CMDIFrameWndEx::PreCreateWindow(tagCREATESTRUCTW &)	mfc100u
+0040A754	13319	CMDIFrameWndEx::UpdateMDITabbedBarsIcons(void)	mfc100u
+0040A758	13048	CMDIFrameWndEx::ShowWindowsDialog(void)	mfc100u
+0040A75C	14147	CWnd::OnGestureRotate(CPoint,double)	mfc100u
+0040A760	3974	CMFCToolBarsCustomizeDialog::EnableUserDefinedToolbars(int)	mfc100u
+0040A764	14149	CWnd::OnGestureZoom(CPoint,long)	mfc100u
+0040A768	2220	CCmdTarget::BeginWaitCursor(void)	mfc100u
+0040A76C	3996	CCmdTarget::EndWaitCursor(void)	mfc100u
+0040A770	12325	CMFCVisualManager::SetDefaultManager(CRuntimeClass *)	mfc100u
+0040A774	6534	CMFCVisualManager::GetThisClass(void)	mfc100u
+0040A778	6537	CMFCVisualManagerOfficeXP::GetThisClass(void)	mfc100u
+0040A77C	7680	int CMFCVisualManagerWindows::m_b3DTabsXPTheme	mfc100u
+0040A780	6539	CMFCVisualManagerWindows::GetThisClass(void)	mfc100u
+0040A784	6535	CMFCVisualManagerOffice2003::GetThisClass(void)	mfc100u
+0040A788	6538	CMFCVisualManagerVS2005::GetThisClass(void)	mfc100u
+0040A78C	13583	CMFCVisualManagerVS2008::GetThisClass(void)	mfc100u
+0040A790	14083	CMFCVisualManagerWindows7::GetThisClass(void)	mfc100u
+0040A794	12830	CMFCVisualManagerOffice2007::SetStyle(CMFCVisualManagerOffice2007::Style,wchar_t const *)	mfc100u
+0040A798	6536	CMFCVisualManagerOffice2007::GetThisClass(void)	mfc100u
+0040A79C	13416	CWinAppEx::WriteInt(wchar_t const *,int)	mfc100u
+0040A7A0	7563	CMDIFrameWndEx::LoadFrame(uint,ulong,CWnd *,CCreateContext *)	mfc100u
+0040A7A4	6940	CFrameImpl::GetUserToolBarByIndex(int)	mfc100u
+0040A7A8	10480	CWnd::OnSettingChange(uint,wchar_t const *)	mfc100u
+0040A7AC	8354	CMDIFrameWndEx::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040A7B0	13384	CMDIFrameWndEx::WinHelpW(ulong,uint)	mfc100u
+0040A7B4	7105	CMDIFrameWndEx::HtmlHelpW(ulong,uint)	mfc100u
+0040A7B8	8377	CMDIFrameWndEx::OnCommand(uint,long)	mfc100u
+0040A7BC	11174	CMDIFrameWndEx::PreTranslateMessage(tagMSG *)	mfc100u
+0040A7C0	3399	CMDIFrameWnd::DefWindowProcW(uint,uint,long)	mfc100u
+0040A7C4	4446	CMDIFrameWnd::GetActiveFrame(void)	mfc100u
+0040A7C8	11407	CMDIFrameWndEx::RecalcLayout(int)	mfc100u
+0040A7CC	1529	CFrameWnd::ActivateFrame(int)	mfc100u
+0040A7D0	12564	CMDIFrameWnd::SetMenuBarVisibility(ulong)	mfc100u
+0040A7D4	12562	CMDIFrameWnd::SetMenuBarState(ulong)	mfc100u
+0040A7D8	10450	CMDIFrameWndEx::OnSetPreviewMode(int,CPrintPreviewState *)	mfc100u
+0040A7DC	5296	CFrameWnd::GetMessageBar(void)	mfc100u
+0040A7E0	7988	CMDIFrameWndEx::NegotiateBorderSpace(uint,tagRECT *)	mfc100u
+0040A7E4	8487	CMDIFrameWndEx::OnCreateClient(tagCREATESTRUCTW *,CCreateContext *)	mfc100u
+0040A7E8	10808	CMDIFrameWnd::OnUpdateFrameTitle(int)	mfc100u
+0040A7EC	10803	CMDIFrameWndEx::OnUpdateFrameMenu(HMENU__ *)	mfc100u
+0040A7F0	3409	CMDIFrameWnd::DelayUpdateFrameMenu(HMENU__ *)	mfc100u
+0040A7F4	2861	CMDIFrameWnd::CreateClient(tagCREATESTRUCTW *,CMenu *)	mfc100u
+0040A7F8	6995	CMDIFrameWndEx::GetWindowMenuPopup(HMENU__ *)	mfc100u
+0040A7FC	1764	CMDIFrameWndEx::AdjustDockingLayout(void *)	mfc100u
+0040A800	9889	CMDIFrameWndEx::OnMoveMiniFrame(CWnd *)	mfc100u
+0040A804	10509	CMDIFrameWndEx::OnShowMDITabContextMenu(CPoint,ulong,int)	mfc100u
+0040A808	2667	CMDIFrameWndEx::ControlBarToTabbedDocument(CDockablePane *)	mfc100u
+0040A80C	13142	CMDIFrameWndEx::TabbedDocumentToControlBar(CMDIChildWndEx *)	mfc100u
+0040A810	10433	CMDIFrameWndEx::OnSetMenu(HMENU__ *)	mfc100u
+0040A814	10527	CMDIFrameWndEx::OnShowPopupMenu(CMFCPopupMenu *)	mfc100u
+0040A818	1583	CFrameImpl::AddDefaultButtonsToCustomizePane(CMFCPopupMenu *,uint)	mfc100u
+0040A81C	8342	CMDIFrameWndEx::OnClosePopupMenu(CMFCPopupMenu *)	mfc100u
+0040A820	8838	CMDIFrameWndEx::OnDrawMenuImage(CDC *,CMFCToolBarMenuButton const *,CRect const &)	mfc100u
+0040A824	10520	CMDIFrameWndEx::OnShowPanes(int)	mfc100u
+0040A828	1754	CMDIFrameWndEx::AdjustClientArea(void)	mfc100u
+0040A82C	7581	CMDIFrameWndEx::LoadMDIState(wchar_t const *)	mfc100u
+0040A830	11877	CMDIFrameWndEx::SaveMDIState(wchar_t const *)	mfc100u
+0040A834	2906	CMDIFrameWndEx::CreateDocumentWindow(wchar_t const *,CObject *)	mfc100u
+0040A838	3012	CMDIFrameWndEx::CreateNewWindow(wchar_t const *,CObject *)	mfc100u
+0040A83C	5103	CMDIFrameWndEx::GetInPlaceActiveItem(void)	mfc100u
+0040A840	9232	CWinApp::OnFileNew(void)	mfc100u
+0040A844	9239	CWinApp::OnFilePrintSetup(void)	mfc100u
+0040A848	6869	CWinApp::GetThisMessageMap(void)	mfc100u
+0040A84C	891	CWinAppEx::CWinAppEx(int)	mfc100u
+0040A850	1293	CWinAppEx::~CWinAppEx(void)	mfc100u
+0040A854	13956	CWinApp::SetAppID(wchar_t const *)	mfc100u
+0040A858	7176	CWinApp::InitInstance(void)	mfc100u
+0040A85C	1990	AfxOleInit(void)	mfc100u
+0040A860	1986	AfxMessageBox(uint,uint,uint)	mfc100u
+0040A864	1895	AfxEnableControlContainer(COccManager *)	mfc100u
+0040A868	13797	CWinApp::EnableTaskbarInteraction(int)	mfc100u
+0040A86C	12753	CWinApp::SetRegistryKey(wchar_t const *)	mfc100u
+0040A870	7616	CWinApp::LoadStdProfileSettings(uint)	mfc100u
+0040A874	7131	CWinAppEx::InitContextMenuManager(void)	mfc100u
+0040A878	7178	CWinAppEx::InitKeyboardManager(void)	mfc100u
+0040A87C	7203	CWinAppEx::InitTooltipManager(void)	mfc100u
+0040A880	12898	CTooltipManager::SetTooltipParams(uint,CRuntimeClass *,CMFCToolTipInfo *)	mfc100u
+0040A884	6891	CWinAppEx::GetTooltipManager(void)	mfc100u
+0040A888	6533	CMFCToolTipCtrl::GetThisClass(void)	mfc100u
+0040A88C	715	CMultiDocTemplate::CMultiDocTemplate(uint,CRuntimeClass *,CRuntimeClass *,CRuntimeClass *)	mfc100u
+0040A890	1592	CWinApp::AddDocTemplate(CDocTemplate *)	mfc100u
+0040A894	345	CCommandLineInfo::CCommandLineInfo(void)	mfc100u
+0040A898	923	CCommandLineInfo::~CCommandLineInfo(void)	mfc100u
+0040A89C	11021	CWinApp::ParseCommandLine(CCommandLineInfo &)	mfc100u
+0040A8A0	11235	CWinApp::ProcessShellCommand(CCommandLineInfo &)	mfc100u
+0040A8A4	13047	CWnd::ShowWindow(int)	mfc100u
+0040A8A8	1312	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator=(wchar_t const *)	mfc100u
+0040A8AC	280	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &)	mfc100u
+0040A8B0	265	operator new[](uint)	mfc100u
+0040A8B4	421	CFile::CFile(void)	mfc100u
+0040A8B8	979	CFile::~CFile(void)	mfc100u
+0040A8BC	10960	CFile::Open(wchar_t const *,uint,CFileException *)	mfc100u
+0040A8C0	5231	CFile::GetLength(void)	mfc100u
+0040A8C4	11333	CFile::Read(void *,uint)	mfc100u
+0040A8C8	2528	CFile::Close(void)	mfc100u
+0040A8CC	422	CFileDialog::CFileDialog(int,wchar_t const *,wchar_t const *,ulong,wchar_t const *,CWnd *,ulong,int)	mfc100u
+0040A8D0	980	CFileDialog::~CFileDialog(void)	mfc100u
+0040A8D4	5563	CFileDialog::GetOFN(void)	mfc100u
+0040A8D8	3628	CFileDialog::DoModal(void)	mfc100u
+0040A8DC	5652	CFileDialog::GetPathName(void)	mfc100u
+0040A8E0	2005	AfxOleTerm(int)	mfc100u
+0040A8E4	4087	CWinAppEx::ExitInstance(void)	mfc100u
+0040A8E8	385	CDialogEx::CDialogEx(uint,CWnd *)	mfc100u
+0040A8EC	948	CDialog::~CDialog(void)	mfc100u
+0040A8F0	5801	CBrush::GetRuntimeClass(void)	mfc100u
+0040A8F4	950	CDialogImpl::~CDialogImpl(void)	mfc100u
+0040A8F8	6713	CDialogEx::GetThisMessageMap(void)	mfc100u
+0040A8FC	3627	CDialog::DoModal(void)	mfc100u
+0040A900	1633	CContextMenuManager::AddMenu(wchar_t const *,uint)	mfc100u
+0040A904	6141	CWinAppEx::GetRuntimeClass(void)	mfc100u
+0040A908	9328	CCmdTarget::OnFinalRelease(void)	mfc100u
+0040A90C	5118	CCmdTarget::GetInterfaceMap(void)	mfc100u
+0040A910	11845	CWinApp::Run(void)	mfc100u
+0040A914	11209	CWinThread::PreTranslateMessage(tagMSG *)	mfc100u
+0040A918	11240	CWinThread::PumpMessage(void)	mfc100u
+0040A91C	9498	CWinApp::OnIdle(long)	mfc100u
+0040A920	7391	CWinThread::IsIdleMessage(tagMSG *)	mfc100u
+0040A924	11236	CWinApp::ProcessWndProcException(CException *,tagMSG const *)	mfc100u
+0040A928	11228	CWinThread::ProcessMessageFilter(int,tagMSG *)	mfc100u
+0040A92C	5261	CWinThread::GetMainWnd(void)	mfc100u
+0040A930	3416	CWinThread::Delete(void)	mfc100u
+0040A934	13568	CWinApp::GetProfileIntW(wchar_t const *,wchar_t const *,int)	mfc100u
+0040A938	13571	CWinApp::WriteProfileInt(wchar_t const *,wchar_t const *,int)	mfc100u
+0040A93C	13569	CWinApp::GetProfileStringW(wchar_t const *,wchar_t const *,wchar_t const *)	mfc100u
+0040A940	13572	CWinApp::WriteProfileStringW(wchar_t const *,wchar_t const *,wchar_t const *)	mfc100u
+0040A944	13567	CWinApp::GetProfileBinary(wchar_t const *,wchar_t const *,uchar * *,uint *)	mfc100u
+0040A948	13570	CWinApp::WriteProfileBinary(wchar_t const *,wchar_t const *,uchar *,uint)	mfc100u
+0040A94C	7179	CWinApp::InitLibId(void)	mfc100u
+0040A950	11469	CWinApp::Register(void)	mfc100u
+0040A954	13267	CWinApp::Unregister(void)	mfc100u
+0040A958	10976	CWinApp::OpenDocumentFile(wchar_t const *,int)	mfc100u
+0040A95C	14162	CWinApp::OpenDocumentFile(wchar_t const *)	mfc100u
+0040A960	1739	CWinApp::AddToRecentFileList(wchar_t const *)	mfc100u
+0040A964	7126	CWinApp::InitApplication(void)	mfc100u
+0040A968	11864	CWinApp::SaveAllModified(void)	mfc100u
+0040A96C	3625	CWinApp::DoMessageBox(wchar_t const *,uint,uint)	mfc100u
+0040A970	3684	CWinApp::DoWaitCursor(int)	mfc100u
+0040A974	8530	CWinApp::OnDDECommand(wchar_t *)	mfc100u
+0040A978	13387	CWinApp::WinHelpW(ulong,uint)	mfc100u
+0040A97C	7108	CWinApp::HtmlHelpW(ulong,uint)	mfc100u
+0040A980	13381	CWinApp::WinHelpInternal(ulong,uint)	mfc100u
+0040A984	11477	CWinApp::RegisterWithRestartManager(wchar_t const *,ulong,ulong (*)(void *),void *,ulong,ulong)	mfc100u
+0040A988	11476	CWinApp::RegisterWithRestartManager(int,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &)	mfc100u
+0040A98C	2164	CWinApp::ApplicationRecoveryCallback(void *)	mfc100u
+0040A990	4744	CWinApp::GetDataRecoveryHandler(void)	mfc100u
+0040A994	13854	CWinApp::IsTaskbarInteractionEnabled(void)	mfc100u
+0040A998	11784	CWinApp::RestartInstance(void)	mfc100u
+0040A99C	7548	CWinApp::LoadAppLangResourceDLL(void)	mfc100u
+0040A9A0	7624	CWinApp::LoadSysPolicies(void)	mfc100u
+0040A9A4	7615	CWinAppEx::LoadState(wchar_t const *,CFrameImpl *)	mfc100u
+0040A9A8	2457	CWinAppEx::CleanState(wchar_t const *)	mfc100u
+0040A9AC	11923	CWinAppEx::SaveState(wchar_t const *,CFrameImpl *)	mfc100u
+0040A9B0	10894	CWinAppEx::OnViewDoubleClick(CWnd *,int)	mfc100u
+0040A9B4	13029	CWinAppEx::ShowPopupMenu(uint,CPoint const &,CWnd *)	mfc100u
+0040A9B8	8115	CWinAppEx::OnAppContextHelp(CWnd *,ulong const * const)	mfc100u
+0040A9BC	8345	CWinAppEx::OnClosingMainFrame(CFrameImpl *)	mfc100u
+0040A9C0	7633	CWinAppEx::LoadWindowPlacement(CRect &,int &,int &)	mfc100u
+0040A9C4	13116	CWinAppEx::StoreWindowPlacement(CRect const &,int,int)	mfc100u
+0040A9C8	11515	CWinAppEx::ReloadWindowPlacement(CFrameWnd *)	mfc100u
+0040A9CC	5830	CDialogEx::GetRuntimeClass(void)	mfc100u
+0040A9D0	8347	CDialog::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040A9D4	8372	CDialogEx::OnCommand(uint,long)	mfc100u
+0040A9D8	11164	CDialogEx::PreTranslateMessage(tagMSG *)	mfc100u
+0040A9DC	2417	CDialog::CheckAutoCenter(void)	mfc100u
+0040A9E0	12606	CDialog::SetOccDialogInfo(_AFX_OCC_DIALOG_INFO *)	mfc100u
+0040A9E4	5556	CDialog::GetOccDialogInfo(void)	mfc100u
+0040A9E8	2756	CDialog::Create(wchar_t const *,CWnd *)	mfc100u
+0040A9EC	2980	CDialog::CreateIndirect(void *,CWnd *)	mfc100u
+0040A9F0	2981	CDialog::CreateIndirect(DLGTEMPLATE const *,CWnd *,void *)	mfc100u
+0040A9F4	9525	CDialog::OnInitDialog(void)	mfc100u
+0040A9F8	10412	CDialog::OnSetFont(CFont *)	mfc100u
+0040A9FC	10058	CDialog::OnOK(void)	mfc100u
+0040AA00	8179	CDialog::OnCancel(void)	mfc100u
+0040AA04	11123	CDialog::PreInitDialog(void)	mfc100u
+0040AA08	6358	CDocument::GetThisClass(void)	mfc100u
+0040AA0C	6719	CDocument::GetThisMessageMap(void)	mfc100u
+0040AA10	404	CDocument::CDocument(void)	mfc100u
+0040AA14	965	CDocument::~CDocument(void)	mfc100u
+0040AA18	10019	CDocument::OnNewDocument(void)	mfc100u
+0040AA1C	8349	CDocument::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040AA20	9329	CDocument::OnFinalRelease(void)	mfc100u
+0040AA24	13822	CDocument::GetInterfaceMap(void)	mfc100u
+0040AA28	3413	CException::Delete(void)	mfc100u
+0040AA2C	13804	CDocument::FindChunk(_GUID const &,ulong)	mfc100u
+0040AA30	13950	CDocument::RemoveChunk(_GUID const &,ulong)	mfc100u
+0040AA34	13939	CDocument::ReadNextChunkValue(ATL::IFilterChunkValue * *)	mfc100u
+0040AA38	13962	CDocument::SetChunkValue(ATL::IFilterChunkValue *)	mfc100u
+0040AA3C	13743	CDocument::ClearChunkList(void)	mfc100u
+0040AA40	14216	CDocument::GetThumbnail(uint,HBITMAP__ * *,WTS_ALPHATYPE *)	mfc100u
+0040AA44	13738	CDocument::BeginReadChunks(void)	mfc100u
+0040AA48	14129	CDocument::LoadDocumentFromStream(IStream *,ulong)	mfc100u
+0040AA4C	12886	CDocument::SetTitle(wchar_t const *)	mfc100u
+0040AA50	12684	CDocument::SetPathName(wchar_t const *,int)	mfc100u
+0040AA54	2504	CDocument::ClearPathName(void)	mfc100u
+0040AA58	4981	CDocument::GetFirstViewPosition(void)	mfc100u
+0040AA5C	5538	CDocument::GetNextView(__POSITION * &)	mfc100u
+0040AA60	8220	CDocument::OnChangedViewList(void)	mfc100u
+0040AA64	3421	CDocument::DeleteContents(void)	mfc100u
+0040AA68	10067	CDocument::OnOpenDocument(wchar_t const *)	mfc100u
+0040AA6C	10296	CDocument::OnSaveDocument(wchar_t const *)	mfc100u
+0040AA70	8334	CDocument::OnCloseDocument(void)	mfc100u
+0040AA74	11706	CDocument::ReportSaveLoadException(wchar_t const *,CException *,int,uint)	mfc100u
+0040AA78	4950	CDocument::GetFile(wchar_t const *,uint,CFileException *)	mfc100u
+0040AA7C	11509	CDocument::ReleaseFile(CFile *,int)	mfc100u
+0040AA80	14211	CDocument::OnRichPreviewUnload(void)	mfc100u
+0040AA84	8615	CDocument::OnDocumentEvent(CDocument::DocumentEvent)	mfc100u
+0040AA88	2375	CDocument::CanCloseFrame(CFrameWnd *)	mfc100u
+0040AA8C	11880	CDocument::SaveModified(void)	mfc100u
+0040AA90	11085	CDocument::PreCloseFrame(CFrameWnd *)	mfc100u
+0040AA94	3670	CDocument::DoSave(wchar_t const *,int)	mfc100u
+0040AA98	3623	CDocument::DoFileSave(void)	mfc100u
+0040AA9C	13309	CDocument::UpdateFrameCounts(void)	mfc100u
+0040AAA0	4764	CDocument::GetDefaultMenu(void)	mfc100u
+0040AAA4	4755	CDocument::GetDefaultAccelerator(void)	mfc100u
+0040AAA8	9496	CDocument::OnIdle(void)	mfc100u
+0040AAAC	14130	CDocument::OnLoadDocumentFromStream(IStream *,ulong)	mfc100u
+0040AAB0	13890	CDocument::OnPreviewHandlerQueryFocus(HWND__ * *)	mfc100u
+0040AAB4	13891	CDocument::OnPreviewHandlerTranslateAccelerator(tagMSG *)	mfc100u
+0040AAB8	13870	CDocument::OnCreatePreviewFrame(void)	mfc100u
+0040AABC	13901	CDocument::OnUnloadHandler(void)	mfc100u
+0040AAC0	13871	CDocument::OnDrawThumbnail(CDC &,tagRECT *)	mfc100u
+0040AAC4	6655	CView::GetThisClass(void)	mfc100u
+0040AAC8	9237	CView::OnFilePrint(void)	mfc100u
+0040AACC	6865	CView::GetThisMessageMap(void)	mfc100u
+0040AAD0	886	CView::CView(void)	mfc100u
+0040AAD4	1288	CView::~CView(void)	mfc100u
+0040AAD8	11115	CView::PreCreateWindow(tagCREATESTRUCTW &)	mfc100u
+0040AADC	2020	AFXPrintPreview(CView *)	mfc100u
+0040AAE0	3663	CView::DoPreparePrinting(CPrintInfo *)	mfc100u
+0040AAE4	8363	CView::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040AAE8	2338	CView::CalcWindowRect(tagRECT *,uint)	mfc100u
+0040AAEC	6155	CView::GetScrollBarCtrl(int)	mfc100u
+0040AAF0	11210	CWnd::PreTranslateMessage(tagMSG *)	mfc100u
+0040AAF4	11080	CView::PostNcDestroy(void)	mfc100u
+0040AAF8	7474	CView::IsSelected(CObject const *)	mfc100u
+0040AAFC	10305	CView::OnScroll(uint,uint,int)	mfc100u
+0040AB00	10308	CView::OnScrollBy(CSize,int)	mfc100u
+0040AB04	8640	CView::OnDragEnter(COleDataObject *,ulong,CPoint)	mfc100u
+0040AB08	8655	CView::OnDragOver(COleDataObject *,ulong,CPoint)	mfc100u
+0040AB0C	8645	CView::OnDragLeave(void)	mfc100u
+0040AB10	9075	CView::OnDrop(COleDataObject *,ulong,CPoint)	mfc100u
+0040AB14	9080	CView::OnDropEx(COleDataObject *,ulong,ulong,CPoint)	mfc100u
+0040AB18	8657	CView::OnDragScroll(ulong,CPoint)	mfc100u
+0040AB1C	10160	CView::OnPrepareDC(CDC *,CPrintInfo *)	mfc100u
+0040AB20	9562	CView::OnInitialUpdate(void)	mfc100u
+0040AB24	8073	CView::OnActivateView(int,CView *,CView *)	mfc100u
+0040AB28	8063	CView::OnActivateFrame(uint,CFrameWnd *)	mfc100u
+0040AB2C	10750	CView::OnUpdate(CView *,long,CObject *)	mfc100u
+0040AB30	10185	CView::OnPrint(CDC *,CPrintInfo *)	mfc100u
+0040AB34	9140	CView::OnEndPrintPreview(CDC *,CPrintInfo *,tagPOINT,CPreviewView *)	mfc100u
+0040AB38	658	CMFCTabCtrl::CMFCTabCtrl(void)	mfc100u
+0040AB3C	1127	CMFCTabCtrl::~CMFCTabCtrl(void)	mfc100u
+0040AB40	2805	CMFCTabCtrl::Create(CMFCTabCtrl::Style,tagRECT const &,CWnd *,uint,CMFCBaseTabCtrl::Location,int)	mfc100u
+0040AB44	2780	CListBox::Create(ulong,tagRECT const &,CWnd *,uint)	mfc100u
+0040AB48	2410	CListBox::CharToItem(uint,uint)	mfc100u
+0040AB4C	13366	CListBox::VKeyToItem(uint,uint)	mfc100u
+0040AB50	3438	CListBox::DeleteItem(tagDELETEITEMSTRUCT *)	mfc100u
+0040AB54	2618	CListBox::CompareItem(tagCOMPAREITEMSTRUCT *)	mfc100u
+0040AB58	7902	CListBox::MeasureItem(tagMEASUREITEMSTRUCT *)	mfc100u
+0040AB5C	3751	CListBox::DrawItem(tagDRAWITEMSTRUCT *)	mfc100u
+0040AB60	8269	CListBox::OnChildNotify(uint,uint,long,long *)	mfc100u
+0040AB64	5468	CWnd::GetMessageMap(void)	mfc100u
+0040AB68	5882	CListBox::GetRuntimeClass(void)	mfc100u
+0040AB6C	897	CWnd::CWnd(void)	mfc100u
+0040AB70	1013	CListBox::~CListBox(void)	mfc100u
+0040AB74	3397	CWnd::Default(void)	mfc100u
+0040AB78	6870	CWnd::GetThisMessageMap(void)	mfc100u
+0040AB7C	7911	CWnd::MessageBoxW(wchar_t const *,wchar_t const *,uint)	mfc100u
+0040AB80	6899	CWnd::GetTopLevelFrame(void)	mfc100u
+0040AB84	13016	CMDIFrameWndEx::ShowPane(CBasePane *,int,int,int)	mfc100u
+0040AB88	12938	CMFCPropertyGridCtrl::SetVSDotNetLook(int)	mfc100u
+0040AB8C	5855	CFont::GetRuntimeClass(void)	mfc100u
+0040AB90	3436	CComboBox::DeleteItem(tagDELETEITEMSTRUCT *)	mfc100u
+0040AB94	2617	CComboBox::CompareItem(tagCOMPAREITEMSTRUCT *)	mfc100u
+0040AB98	7901	CComboBox::MeasureItem(tagMEASUREITEMSTRUCT *)	mfc100u
+0040AB9C	3749	CComboBox::DrawItem(tagDRAWITEMSTRUCT *)	mfc100u
+0040ABA0	2748	CComboBox::Create(ulong,tagRECT const &,CWnd *,uint)	mfc100u
+0040ABA4	8266	CComboBox::OnChildNotify(uint,uint,long,long *)	mfc100u
+0040ABA8	5809	CComboBox::GetRuntimeClass(void)	mfc100u
+0040ABAC	921	CComboBox::~CComboBox(void)	mfc100u
+0040ABB0	557	CMFCPropertyGridCtrl::CMFCPropertyGridCtrl(void)	mfc100u
+0040ABB4	1081	CMFCPropertyGridCtrl::~CMFCPropertyGridCtrl(void)	mfc100u
+0040ABB8	4090	CMFCPropertyGridCtrl::ExpandAll(int)	mfc100u
+0040ABBC	12140	CMFCPropertyGridCtrl::SetAlphabeticMode(int)	mfc100u
+0040ABC0	3915	CMFCPropertyGridCtrl::EnableHeaderCtrl(int,wchar_t const *,wchar_t const *)	mfc100u
+0040ABC4	3897	CMFCPropertyGridCtrl::EnableDescriptionArea(int)	mfc100u
+0040ABC8	7892	CMFCPropertyGridCtrl::MarkModifiedProperties(int,int)	mfc100u
+0040ABCC	562	CMFCPropertyGridProperty::CMFCPropertyGridProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,ulong,int)	mfc100u
+0040ABD0	286	ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>(wchar_t const *)	mfc100u
+0040ABD4	1708	CMFCPropertyGridProperty::AddSubItem(CMFCPropertyGridProperty *)	mfc100u
+0040ABD8	561	CMFCPropertyGridProperty::CMFCPropertyGridProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,COleVariant const &,wchar_t const *,ulong,wchar_t const *,wchar_t const *,wchar_t const *)	mfc100u
+0040ABDC	779	COleVariant::COleVariant(tagVARIANT const &)	mfc100u
+0040ABE0	1346	COleVariant::operator=(wchar_t const * const)	mfc100u
+0040ABE4	1641	CMFCPropertyGridProperty::AddOption(wchar_t const *,int)	mfc100u
+0040ABE8	1674	CMFCPropertyGridCtrl::AddProperty(CMFCPropertyGridProperty *,int,int)	mfc100u
+0040ABEC	3961	CMFCPropertyGridProperty::EnableSpinControl(int,int,int)	mfc100u
+0040ABF0	4356	CGdiObject::FromHandle(void *)	mfc100u
+0040ABF4	560	CMFCPropertyGridFontProperty::CMFCPropertyGridFontProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,tagLOGFONTW &,ulong,wchar_t const *,ulong,ulong)	mfc100u
+0040ABF8	3853	CMFCPropertyGridProperty::Enable(int)	mfc100u
+0040ABFC	556	CMFCPropertyGridColorProperty::CMFCPropertyGridColorProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,ulong const &,CPalette *,wchar_t const *,ulong)	mfc100u
+0040AC00	3945	CMFCPropertyGridColorProperty::EnableOtherButton(wchar_t const *,int,int)	mfc100u
+0040AC04	3877	CMFCPropertyGridColorProperty::EnableAutomaticButton(wchar_t const *,ulong,int)	mfc100u
+0040AC08	559	CMFCPropertyGridFileProperty::CMFCPropertyGridFileProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,int,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,wchar_t const *,ulong,wchar_t const *,wchar_t const *,ulong)	mfc100u
+0040AC0C	558	CMFCPropertyGridFileProperty::CMFCPropertyGridFileProperty(ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> const &,ulong,wchar_t const *)	mfc100u
+0040AC10	4089	CMFCPropertyGridProperty::Expand(int)	mfc100u
+0040AC14	10471	CDockablePane::OnSettingChange(uint,wchar_t const *)	mfc100u
+0040AC18	3495	CGdiObject::Detach(void)	mfc100u
+0040AC1C	5542	AFX_GLOBAL_DATA::GetNonClientMetrics(tagNONCLIENTMETRICSW &)	mfc100u
+0040AC20	6134	CTreeCtrl::GetRuntimeClass(void)	mfc100u
+0040AC24	1284	CTreeCtrl::~CTreeCtrl(void)	mfc100u
+0040AC28	6863	CTreeCtrl::GetThisMessageMap(void)	mfc100u
+0040AC2C	13391	CWnd const CWnd::wndTop	mfc100u
+0040AC30	11172	CMDIChildWndEx::PreTranslateMessage(tagMSG *)	mfc100u
+0040AC34	3993	CFrameWnd::EndModalState(void)	mfc100u
+0040AC38	2216	CFrameWnd::BeginModalState(void)	mfc100u
+0040AC3C	6247	CWnd::GetSuperWndProcAddr(void)	mfc100u
+0040AC40	10045	CWnd::OnNotify(uint,long,long *)	mfc100u
+0040AC44	8374	CFrameWnd::OnCommand(uint,long)	mfc100u
+0040AC48	2853	CWnd::CreateAccessibleProxy(uint,long,long *)	mfc100u
+0040AC4C	12724	CWnd::SetProxy(IAccessibleProxy *)	mfc100u
+0040AC50	11246	CWnd::put_accValue(tagVARIANT,wchar_t *)	mfc100u
+0040AC54	11244	CWnd::put_accName(tagVARIANT,wchar_t *)	mfc100u
+0040AC58	1501	CWnd::accDoDefaultAction(tagVARIANT)	mfc100u
+0040AC5C	1508	CWnd::accHitTest(long,long,tagVARIANT *)	mfc100u
+0040AC60	1514	CWnd::accNavigate(long,tagVARIANT,tagVARIANT *)	mfc100u
+0040AC64	1512	CWnd::accLocation(long *,long *,long *,long *,tagVARIANT)	mfc100u
+0040AC68	1519	CWnd::accSelect(long,tagVARIANT)	mfc100u
+0040AC6C	4388	CWnd::get_accDefaultAction(tagVARIANT,wchar_t * *)	mfc100u
+0040AC70	4425	CWnd::get_accSelection(tagVARIANT *)	mfc100u
+0040AC74	4396	CWnd::get_accFocus(tagVARIANT *)	mfc100u
+0040AC78	4408	CWnd::get_accKeyboardShortcut(tagVARIANT,wchar_t * *)	mfc100u
+0040AC7C	4404	CWnd::get_accHelpTopic(wchar_t * *,tagVARIANT,long *)	mfc100u
+0040AC80	4400	CWnd::get_accHelp(tagVARIANT,wchar_t * *)	mfc100u
+0040AC84	4430	CWnd::get_accState(tagVARIANT,tagVARIANT *)	mfc100u
+0040AC88	4421	CWnd::get_accRole(tagVARIANT,tagVARIANT *)	mfc100u
+0040AC8C	4392	CWnd::get_accDescription(tagVARIANT,wchar_t * *)	mfc100u
+0040AC90	4434	CWnd::get_accValue(tagVARIANT,wchar_t * *)	mfc100u
+0040AC94	4413	CWnd::get_accName(tagVARIANT,wchar_t * *)	mfc100u
+0040AC98	4379	CWnd::get_accChild(tagVARIANT,IDispatch * *)	mfc100u
+0040AC9C	4383	CWnd::get_accChildCount(long *)	mfc100u
+0040ACA0	4416	CWnd::get_accParent(IDispatch * *)	mfc100u
+0040ACA4	3999	CWnd::EnsureStdObj(void)	mfc100u
+0040ACA8	14067	CWnd::OnDrawIconicThumbnailOrLivePreview(CDC &,CRect,CSize,int,int &)	mfc100u
+0040ACAC	3992	CWnd::EndModalLoop(int)	mfc100u
+0040ACB0	2665	CWnd::ContinueModal(void)	mfc100u
+0040ACB4	13382	CWnd::WinHelpInternal(ulong,uint)	mfc100u
+0040ACB8	7109	CWnd::HtmlHelpW(ulong,uint)	mfc100u
+0040ACBC	13388	CWnd::WinHelpW(ulong,uint)	mfc100u
+0040ACC0	6156	CWnd::GetScrollBarCtrl(int)	mfc100u
+0040ACC4	10725	CWnd::OnToolHitTest(CPoint,tagTOOLINFOW *)	mfc100u
+0040ACC8	12554	CFrameWnd::SetMenu(CMenu *)	mfc100u
+0040ACCC	5275	CFrameWnd::GetMenu(void)	mfc100u
+0040ACD0	2339	CWnd::CalcWindowRect(tagRECT *,uint)	mfc100u
+0040ACD4	3490	CMDIChildWnd::DestroyWindow(void)	mfc100u
+0040ACD8	2952	CWnd::CreateEx(ulong,wchar_t const *,wchar_t const *,ulong,int,int,int,int,HWND__ *,HMENU__ *,void *)	mfc100u
+0040ACDC	2951	CWnd::CreateEx(ulong,wchar_t const *,wchar_t const *,ulong,tagRECT const &,CWnd *,uint,void *)	mfc100u
+0040ACE0	2852	CWnd::Create(wchar_t const *,wchar_t const *,ulong,tagRECT const &,CWnd *,uint,CCreateContext *)	mfc100u
+0040ACE4	11159	CWnd::PreSubclassWindow(void)	mfc100u
+0040ACE8	4642	CCmdTarget::GetConnectionHook(_GUID const &)	mfc100u
+0040ACEC	4923	CCmdTarget::GetExtraConnectionPoints(CPtrArray *)	mfc100u
+0040ACF0	5115	CCmdTarget::GetInterfaceHook(void const *)	mfc100u
+0040ACF4	8483	CCmdTarget::OnCreateAggregates(void)	mfc100u
+0040ACF8	4901	CCmdTarget::GetEventSinkMap(void)	mfc100u
+0040ACFC	5143	CWnd::GetInterfaceMap(void)	mfc100u
+0040AD00	4645	CCmdTarget::GetConnectionMap(void)	mfc100u
+0040AD04	4794	CCmdTarget::GetDispatchMap(void)	mfc100u
+0040AD08	4623	CCmdTarget::GetCommandMap(void)	mfc100u
+0040AD0C	6931	CCmdTarget::GetTypeLib(ulong,ITypeLib * *)	mfc100u
+0040AD10	5297	CMDIChildWnd::GetMessageBar(void)	mfc100u
+0040AD14	10449	CMDIChildWndEx::OnSetPreviewMode(int,CPrintPreviewState *)	mfc100u
+0040AD18	5279	CFrameWnd::GetMenuBarState(void)	mfc100u
+0040AD1C	12561	CFrameWnd::SetMenuBarState(ulong)	mfc100u
+0040AD20	5280	CFrameWnd::GetMenuBarVisibility(void)	mfc100u
+0040AD24	12563	CFrameWnd::SetMenuBarVisibility(ulong)	mfc100u
+0040AD28	1531	CMDIChildWndEx::ActivateFrame(int)	mfc100u
+0040AD2C	11406	CMDIChildWndEx::RecalcLayout(int)	mfc100u
+0040AD30	5469	CFrameWnd::GetMessageString(uint,ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)	mfc100u
+0040AD34	4445	CFrameWnd::GetActiveFrame(void)	mfc100u
+0040AD38	4444	CFrameWnd::GetActiveDocument(void)	mfc100u
+0040AD3C	7561	CMDIChildWnd::LoadFrame(uint,ulong,CWnd *,CCreateContext *)	mfc100u
+0040AD40	2766	CFrameWnd::Create(wchar_t const *,wchar_t const *,ulong,tagRECT const &,CWnd *,wchar_t const *,ulong,CCreateContext *)	mfc100u
+0040AD44	5558	CWnd::GetOccDialogInfo(void)	mfc100u
+0040AD48	12610	CWnd::SetOccDialogInfo(_AFX_OCC_DIALOG_INFO *)	mfc100u
+0040AD4C	2887	CWnd::CreateControlSite(COleControlContainer *,COleControlSite * *,uint,_GUID const &)	mfc100u
+0040AD50	2884	CWnd::CreateControlContainer(COleControlContainer * *)	mfc100u
+0040AD54	7384	CFrameWnd::IsFrameWnd(void)	mfc100u
+0040AD58	2418	CWnd::CheckAutoCenter(void)	mfc100u
+0040AD5C	14146	CWnd::OnGesturePressAndTap(CPoint,long)	mfc100u
+0040AD60	7929	CWnd::ModifyStyle(ulong,ulong,uint)	mfc100u
+0040AD64	14148	CWnd::OnGestureTwoFingerTap(CPoint)	mfc100u
+0040AD68	6932	CCmdTarget::GetTypeLibCache(void)	mfc100u
+0040AD6C	6922	CCmdTarget::GetTypeInfoCount(void)	mfc100u
+0040AD70	4792	CCmdTarget::GetDispatchIID(_GUID *)	mfc100u
+0040AD74	7393	CCmdTarget::IsInvokeAllowed(long)	mfc100u
+0040AD78	9333	CWnd::OnFinalRelease(void)	mfc100u
+0040AD7C	8350	CFrameWnd::OnCmdMsg(uint,int,void *,AFX_CMDHANDLERINFO *)	mfc100u
+0040AD80	11099	CMDIChildWndEx::PreCreateWindow(tagCREATESTRUCTW &)	mfc100u
+0040AD84	1023	CMDIChildWndEx::~CMDIChildWndEx(void)	mfc100u
+0040AD88	691	CMFCToolBarsCustomizeDialog::CMFCToolBarsCustomizeDialog(CFrameWnd *,int,uint,CList<CRuntimeClass *,CRuntimeClass *> *)	mfc100u
+0040AD8C	14145	CWnd::OnGesturePan(CPoint,CPoint)	mfc100u
+0040AD90	14132	CWnd::GetGestureStatus(CPoint)	mfc100u
+0040AD94	14059	CWnd::OnTouchInput(CPoint,int,int,tagTOUCHINPUT *)	mfc100u
+0040AD98	14060	CWnd::OnTouchInputs(uint,tagTOUCHINPUT *)	mfc100u
+0040AD9C	8277	CWnd::OnChildNotify(uint,uint,long,long *)	mfc100u
+0040ADA0	473	CMDIChildWndEx::CMDIChildWndEx(void)	mfc100u
+0040ADA4	6730	CMDIChildWndEx::GetThisMessageMap(void)	mfc100u
+0040ADA8	6410	CMDIChildWndEx::GetThisClass(void)	mfc100u
+0040ADAC	1298	operator new(uint)	mfc100u
+0040ADB0	11073	CFrameWnd::PostNcDestroy(void)	mfc100u
+0040ADB4	3398	CMDIChildWnd::DefWindowProcW(uint,uint,long)	mfc100u
+0040ADB8	10937	CWnd::OnWndMsg(uint,uint,long,long *)	mfc100u
+0040ADBC	10694	CMDIFrameWndEx::OnToolbarCreateNew(uint,long)	mfc100u
+0040ADC0	13380	CWnd::WindowProc(uint,uint,long)	mfc100u
+0040ADC4	2089	AfxWinMain(HINSTANCE__ *,HINSTANCE__ *,wchar_t *,int)	mfc100u
+0040ADC8	7707	int CMFCPopupMenu::m_bForceMenuFocus	mfc100u
+0040ADCC	1300	operator delete(void *)	mfc100u
